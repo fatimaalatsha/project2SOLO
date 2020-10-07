@@ -6,27 +6,58 @@
        src="https://code.jquery.com/jquery-3.5.1.min.js"
        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
         crossorigin="anonymous"></script>
-
-<title>4-Rwaq</title>
-
-<h1> 4 Rwaq </h1>
+<!-- the tilte and the name of the project
+ -->
+ <title>4-Rwaq</title>
+<!-- the head of the firt page
+ -->
+ <h1> 4Rwaq </h1>
 </head>
 <body>
-     <p id='welcome'> wlcome, let's take a few minutes to relax </p>
-<div class="signing">
-	<p id="log"> log in now </p>
-	 <input id="username" type="text" name="username" placeholder="Inter Username" required> </input>
-	 <br>
-	 <br>
+<!-- the first page with the wlcome and sign in box
+ -->     
 
-    <input id="password" type="password" name="password" placeholder="Inter Password" required></input>
-    <br>
+<div class="signing">
+	<p id='welcome'> wlcome, let's take a few minutes to relax </p>
+	 <p id="log"> log in now </p>
+	  <input id="username" type="text" name="username" placeholder="Inter Username" required> </input>
+  <br>
+  <br>
+
+     <input id="password" type="password" name="password" placeholder="Inter Password" required></input>
+   <br>
 	 <br>
-     <button id="submit"> login </button>
+      <button id="submit"> login </button>
 </div>
     
+<!-- the secand page with the time to choose from and it takes you to the thired page 
+ -->
+<div class="next-page" style="display: none"><p id='hello'> Hello  </p> 
+	<br>
+	<br>
+   <p id='time'> how much time do you have </p>
+     <!-- <select name="Duration" id="time" >
+       <option value="3" id='3'>Three minutes</option>
+       <option value="5" id='5'>Tive minutes</option>
+       <option value="10" id='10'>Ten minutes</option>
+     if there is time work on the random one
+    <option value="rendom">choose for me </option> 
+     </select> -->
+    <button id='btn3'> 3 minutes </button> 
+    <br>
+	  <br>
+    <button id='btn5'> 5 minutes </button>
+    <br>
+	  <br>
+    <button id='btn10'> 10 minutes </button>
 
-<div class="next-page" style="display: none"><p> hello </p> </div>
+    
+ 
+ <p class="three" style="display: none"> enjoy 
+	<br>
+	<br>
+	
+</p>
 
 <script src="main.js"></script>
 
