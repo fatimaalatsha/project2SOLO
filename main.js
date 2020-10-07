@@ -1,9 +1,8 @@
-// var data={
-// 	username:"fatima",
-// 	password:"1234"
-// }
-var x=$("#username").val();
-var y=$("#password").val();
+var data={
+	username:'fatima',
+	password:1234
+}
+
 // 	$('#return-to-main').click(function(){
 // 		$(".colosseum").show()
 // 		$(".colosseum3").hide()
@@ -11,13 +10,22 @@ var y=$("#password").val();
 // 		$(".Taj-Mahal3").hide()
 
 // })
-$('.submit').click(function(){
-	if (x === fatima) && (y === 1234){
+
+$('#submit').click(function(){
+	var x=$("#username").val();
+    var y=$("#password")
+	if (data.username === x && data.password === y ){
 		$(".next-page").show();
 		$(".signing").hide();
 	}
-	else 
-	alert("try again")	
+	 
+	else if ( x ==='' || y ===''){
 
-		
+alert("Please fill all fields.");
+}
+else
+	alert("somting is wrong, Please check your username and password")
+	
+	// $("#username").val('');
+ //    $("#password").val('');	
 })
